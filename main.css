@@ -1,0 +1,27 @@
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: solid 5px red;
+  background: #000;
+  width: 100px;
+  height: 100px;
+}
+
+.bamboo {
+  margin: 0px;
+  display: inline-block;
+  color: green;
+}
+
+.byte {
+  margin: 0px;
+  display: inline-flex;
+  color: #fff;
+}
+
+.panda {
+  size: 100px;
+  margin: 0px;
+  display: inline-block;
+}
