@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@font-face { font-family:"Origin Tech Demo";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID1") format(svg)}
+@font-face { font-family:"Computerfont";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+.fil0 {fill:#373435}
+.fnt0 {font-weight:normal;font-size:846.67px;font-family:'Computerfont'}
+.fnt1 {font-weight:normal;font-size:846.67px;font-family:'Origin Tech Demo'}
