@@ -1,27 +1,51 @@
 .logo {
   display: flex;
-  align-items: center;
-  padding: 20px;
-  border: solid 5px red;
-  background: #000;
-  width: 100px;
-  height: 100px;
+  align-items: end;
+  padding: 0px;
+  border: solid 5px green;
+  background-image: url(/imgs/fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: fit-content;
+  margin-bottom: 100px;
+  margin-left: 20px;
 }
 
 .bamboo {
-  margin: 0px;
-  display: inline-block;
-  color: green;
+  font-family: origin;
+  color: #000;
+  margin-left: 10px;
+  font-size: 38px;
 }
 
 .byte {
-  margin: 0px;
-  display: inline-flex;
-  color: #fff;
+  font-family: ComputerFont;
+  color: #7cfc00;
+  margin-right: 10px;
+  margin-bottom: 13px;
+  font-size: 45px;
 }
 
 .panda {
-  size: 100px;
+  z-index: 0;
   margin: 0px;
-  display: inline-block;
+  width: 150px;
+}
+
+html {
+  background: #000;
+}
+
+@font-face {
+  font-family: ComputerFont;
+  src: url(/fonts/computerfont/Computerfont.ttf);
+}
+
+@font-face {
+  font-family: origin;
+  src: url(/fonts/origin_tech/origintech.ttf);
+}
+
+a {
+  text-decoration: none;
 }
